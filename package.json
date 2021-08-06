@@ -1,0 +1,20 @@
+{
+  "name": "@festo-ui/examples",
+  "version": "1.0.0",
+  "description": "Examples of how to use the @festo-ui packages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Festo-se/festo-ui-examples.git"
+  },
+  "keywords": [
+    "festo",
+    "festo-ui",
+    "web-essentials"
+  ],
+  "author": "Severin Friede <severin.friede@festo.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Festo-se/festo-ui-examples/issues"
+  },
+  "homepage": "https://github.com/Festo-se/festo-ui-examples#readme"
+}

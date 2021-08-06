@@ -1,0 +1,8 @@
+{
+  "name": "@festo-ui/examples/web-app-profile-menu",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@festo-ui/web-essentials": "dev"
+  }
+}

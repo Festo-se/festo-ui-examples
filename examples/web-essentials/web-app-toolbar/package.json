@@ -1,0 +1,8 @@
+{
+  "name": "@festo-ui/examples/web-app-toolbar",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@festo-ui/web-essentials": "dev"
+  }
+}
