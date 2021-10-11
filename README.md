@@ -5,6 +5,7 @@ In this repository we will show you how to use the @festo-ui packages (such as [
 ## Examples
 
 - [web-app-simple](./examples/web-essentials/web-app-simple/README.md)
+- [web-app-extended](./examples/web-essentials/web-app-extended/README.md)
 - [web-app-toolbar](./examples/web-essentials/web-app-toolbar/README.md)
 - [web-app-navbar-menu](./examples/web-essentials/web-app-navbar-menu/README.md)
 - [web-app-profile-menu](./examples/web-essentials/web-app-profile-menu/README.md)
