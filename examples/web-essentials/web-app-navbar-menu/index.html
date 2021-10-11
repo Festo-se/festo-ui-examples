@@ -1,5 +1,5 @@
 <head>
-  <title>Profile Menu Example - Festo UI</title>
+  <title>Navbar Menu Example - Festo UI</title>
 </head>
 <header class="fwe-w-100">
   <nav class="fwe-navbar">
@@ -13,12 +13,7 @@
         />
       </div>
       <!-- mobile navigation -->
-      <button
-        id="navbarbtn"
-        title="burger menu"
-        type="button"
-        class="fwe-navbar-burger-menu fwe-d-block fwe-d-md-none"
-      ></button>
+      <button id="navbarbtn" title="burger menu" type="button" class="fwe-navbar-burger-menu fwe-d-block fwe-d-md-none"></button>
       <div class="fwe-mobile-navlist-container" id="navlistcontainer">
         <!-- add the class "opened" or "closed" with JS -->
         <nav class="fwe-mobile-navlist">
@@ -37,34 +32,11 @@
       <div class="fwe-button-container">
         <div class="fwe-navbar-menu">
           <button class="fwe-navbar-menu-button" id="profilemenubtn">
-            <i class="fwe-icon fwe-icon-people-user fwe-color-hero"></i>
-            <span class="fwe-d-none fwe-d-xl-block">Jon Doe</span>
+            <i class="fwe-icon fwe-icon-menu-settings"></i>
+            <span class="fwe-d-none fwe-d-xl-block">Settings</span>
           </button>
-          <div
-            class="fwe-navbar-menu-container fwe-profile-menu fwe-d-none"
-            id="profilemenu"
-          >
-            <div class="fwe-profile-menu-header">
-              <div class="fwe-profile-image-container">
-                <!-- placeholder -->
-                <div class="fwe-placeholder-letter">J</div>
-                <!-- or image -->
-                <!-- <img src="#" class="fwe-profile-image" /> -->
-              </div>
-              <div class="fwe-profile-data-container">
-                <div class="fwe-username">Jon Doe</div>
-                <div class="fwe-email">JonDoe@domain.com</div>
-              </div>
-            </div>
-            <button class="fwe-btn fwe-btn-link fwe-dark fwe-profile-menu-item">
-              <i class="fwe-icon fwe-icon-people-user"></i>
-              Page 1
-            </button>
-            <button class="fwe-btn fwe-btn-link fwe-dark fwe-profile-menu-item">
-              <i class="fwe-icon fwe-icon-list-acknowledge-all"></i>
-              Page 2
-            </button>
-            <button class="fwe-btn fwe-btn-lg fwe-btn-logout">Logout</button>
+          <div class="fwe-navbar-menu-container fwe-p-l fwe-d-none" id="profilemenu">
+            <div>Some content</div>
           </div>
         </div>
       </div>
