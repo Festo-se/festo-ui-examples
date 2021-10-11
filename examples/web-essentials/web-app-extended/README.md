@@ -1,6 +1,6 @@
 # Web App Extended Example
 
-This template shows an extended usage of the Web Essentials CSS framework for web apps.
+This template shows an extended usage of the Web Essentials CSS framework for web apps. It shows how to use our grid layout system and other responsive utilities.
 
 ## Preview
 
