@@ -1,21 +1,32 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Extended Example - Festo UI</title>
-</head>
-<header class="fwe-fixed-header">
-  <nav class="fwe-navbar fwe-pl-0">
-    <div class="fwe-container">
-      <!-- mobile navigation -->
-      <button
-        title="Mobile Navigation"
-        type="button"
-        class="fwe-navbar-burger-menu fwe-d-block fwe-d-md-none"
-        id="navbarbtn"
-      ></button>
-      <div class="fwe-mobile-navlist-container" id="navlistcontainer">
-        <nav class="fwe-mobile-navlist">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extended Example - Festo UI</title>
+  </head>
+  <header class="fwe-fixed-header">
+    <nav class="fwe-navbar fwe-pl-0">
+      <div class="fwe-container">
+        <!-- mobile navigation -->
+        <button
+          title="Mobile Navigation"
+          type="button"
+          class="fwe-navbar-burger-menu fwe-d-block fwe-d-md-none"
+          id="navbarbtn"
+        ></button>
+        <div class="fwe-mobile-navlist-container" id="navlistcontainer">
+          <nav class="fwe-mobile-navlist">
+            <a href="#" class="fwe-active">Home</a>
+            <a href="#">Automation</a>
+            <a href="#">Technical education</a>
+            <a href="#">Journal</a>
+            <a href="#">About Festo</a>
+            <a href="#">Careers</a>
+          </nav>
+        </div>
+
+        <!-- navigation -->
+        <nav class="fwe-navlist fwe-d-none fwe-d-md-flex">
           <a href="#" class="fwe-active">Home</a>
           <a href="#">Automation</a>
           <a href="#">Technical education</a>
@@ -23,240 +34,404 @@
           <a href="#">About Festo</a>
           <a href="#">Careers</a>
         </nav>
-      </div>
 
-      <!-- navigation -->
-      <nav class="fwe-navlist fwe-d-none fwe-d-md-flex">
-        <a href="#" class="fwe-active">Home</a>
-        <a href="#">Automation</a>
-        <a href="#">Technical education</a>
-        <a href="#">Journal</a>
-        <a href="#">About Festo</a>
-        <a href="#">Careers</a>
-      </nav>
-
-      <!-- festo logo -->
-      <div class="fwe-logo-container">
-        <div class="fwe-festo-logo"></div>
-      </div>
-    </div>
-  </nav>
-</header>
-
-<!-- spaced needed when using 'fixed-header' -->
-<div class="fwe-navbar-spacer"></div>
-
-<!-- main content goes here -->
-<div class="fwae-search-container">
-  <div class="fwae-search-dummy">
-    <i class="fwe-icon fwe-icon-file-search"></i>
-    <span class="fwe-pl-2 fwe-color-text-light">Search</span>
-  </div>
-</div>
-<div class="fwae-big-blue"></div>
-<div class="fwae-jumbo">
-  <i class="fwae-arrow-left fwe-icon fwe-icon-lg fwe-icon-arrows-left-2"></i>
-  <i class="fwae-arrow-right fwe-icon fwe-icon-lg fwe-icon-arrows-right-2"></i>
-  <strong><small>Lorem ipsum dolor sit</small></strong>
-  <h1>Headline</h1>
-  <div class="fwae-jumbo-content">
-    <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus. est.Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
-    </p>
-    <button type="button" class="fwe-btn fwe-btn-hero fwe-btn-lg">More</button>
-  </div>
-  <div class="fwe-pagination">
-    <span class="fwe-page-dot fwe-selected"></span>
-    <span class="fwe-page-dot"></span>
-    <span class="fwe-page-dot"></span>
-    <span class="fwe-page-dot"></span>
-  </div>
-</div>
-
-<div class="fwae-submenu">
-  <nav class="fwe-list-group fwe-list-group-horizontal">
-    <a href="#" class="fwe-list-group-item fwe-active">Industrial Automation</a>
-    <a href="#" class="fwe-list-group-item">Process Automation</a>
-    <a href="#" class="fwe-list-group-item">Industry Products & Solutions</a>
-  </nav>
-</div>
-
-<main class="fwae-main fwe-container">
-  <section class="fwae-first fwe-py-5">
-    <h2>H2 Title</h2>
-    <div class="fwe-grid">
-      <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
-        <div class="fwae-img-placeholder"></div>
-        <h3 class="fwe-mb-0">H3 Title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus.
-        </p>
-        <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
-          Learn more
-        </button>
-      </div>
-      <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
-        <div class="fwae-img-placeholder"></div>
-        <h3 class="fwe-mb-0">H3 Title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus.
-        </p>
-        <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
-          Learn more
-        </button>
-      </div>
-      <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
-        <div class="fwae-img-placeholder"></div>
-        <h3 class="fwe-mb-0">H3 Title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus.
-        </p>
-        <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
-          Learn more
-        </button>
-      </div>
-    </div>
-  </section>
-  <section class="fwae-second fwe-py-5">
-    <div class="fwe-grid">
-      <div class="fwe-col-12 fwe-col-md-6">
-        <div class="fwae-horbox">
-          <div class="fwae-horbox-img fwe-d-none fwe-d-sm-block"></div>
-          <div class="fwae-horbox-content">
-            <h2 class="fwe-m-0">Subheadline</h2>
-            <p>
-              Lorem ipsum dolor sit amet, con-sectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </p>
-            <button
-              type="button"
-              class="fwe-btn fwe-btn-link fwe-pt-3 fwae-more"
-            >
-              Learn more
-            </button>
-          </div>
-        </div>
-        <div class="fwae-horbox fwe-mt-4">
-          <div class="fwae-horbox-img fwe-d-none fwe-d-sm-block"></div>
-          <div class="fwae-horbox-content">
-            <h2 class="fwe-m-0">Subheadline</h2>
-            <p>
-              Lorem ipsum dolor sit amet, con-sectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </p>
-            <button
-              type="button"
-              class="fwe-btn fwe-btn-link fwe-pt-3 fwae-more"
-            >
-              Learn more
-            </button>
-          </div>
+        <!-- festo logo -->
+        <div class="fwe-logo-container">
+          <div class="fwe-festo-logo"></div>
         </div>
       </div>
-      <div class="fwe-col-12 fwe-col-md-6">
-        <div class="fwae-verbox">
-          <div class="fwae-verbox-img"></div>
-          <h2 class="fwe-m-0">Subheadline</h2>
+    </nav>
+  </header>
+
+  <!-- spaced needed when using 'fixed-header' -->
+  <div class="fwe-navbar-spacer"></div>
+
+  <!-- main content goes here -->
+  <div class="fwae-search-container">
+    <div class="fwae-search-dummy">
+      <i class="fwe-icon fwe-icon-file-search"></i>
+      <span class="fwe-pl-2 fwe-color-text-light">Search</span>
+    </div>
+  </div>
+  <div class="fwae-big-blue"></div>
+  <div class="fwae-jumbo">
+    <i class="fwae-arrow-left fwe-icon fwe-icon-lg fwe-icon-arrows-left-2"></i>
+    <i
+      class="fwae-arrow-right fwe-icon fwe-icon-lg fwe-icon-arrows-right-2"
+    ></i>
+    <strong><small>Lorem ipsum dolor sit</small></strong>
+    <h1>Headline</h1>
+    <div class="fwae-jumbo-content">
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus. est.Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet.
+      </p>
+      <button type="button" class="fwe-btn fwe-btn-hero fwe-btn-lg">
+        More
+      </button>
+    </div>
+    <div class="fwe-pagination">
+      <span class="fwe-page-dot fwe-selected"></span>
+      <span class="fwe-page-dot"></span>
+      <span class="fwe-page-dot"></span>
+      <span class="fwe-page-dot"></span>
+    </div>
+  </div>
+
+  <div class="fwae-submenu">
+    <nav class="fwe-list-group fwe-list-group-horizontal">
+      <a href="#" class="fwe-list-group-item fwe-active"
+        >Industrial Automation</a
+      >
+      <a href="#" class="fwe-list-group-item">Process Automation</a>
+      <a href="#" class="fwe-list-group-item">Industry Products & Solutions</a>
+    </nav>
+  </div>
+
+  <main class="fwae-main fwe-container">
+    <section class="fwae-first fwe-py-5">
+      <h2>H2 Title</h2>
+      <div class="fwe-grid">
+        <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
+          <div class="fwae-img-placeholder"></div>
+          <h3 class="fwe-mb-0">H3 Title</h3>
           <p>
-            Lorem ipsum dolor sit amet, con-sectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
           </p>
-          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-3 fwae-more">
+          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
+            Learn more
+          </button>
+        </div>
+        <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
+          <div class="fwae-img-placeholder"></div>
+          <h3 class="fwe-mb-0">H3 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
+            Learn more
+          </button>
+        </div>
+        <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
+          <div class="fwae-img-placeholder"></div>
+          <h3 class="fwe-mb-0">H3 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
             Learn more
           </button>
         </div>
       </div>
+    </section>
+    <section class="fwae-second fwe-py-5">
+      <div class="fwe-grid">
+        <div class="fwe-col-12 fwe-col-md-6">
+          <div class="fwae-horbox">
+            <div class="fwae-horbox-img fwe-d-none fwe-d-sm-block"></div>
+            <div class="fwae-horbox-content">
+              <h2 class="fwe-m-0">Subheadline</h2>
+              <p>
+                Lorem ipsum dolor sit amet, con-sectetuer adipiscing elit.
+                Aenean commodo ligula eget dolor.
+              </p>
+              <button
+                type="button"
+                class="fwe-btn fwe-btn-link fwe-pt-3 fwae-more"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="fwae-horbox fwe-mt-4">
+            <div class="fwae-horbox-img fwe-d-none fwe-d-sm-block"></div>
+            <div class="fwae-horbox-content">
+              <h2 class="fwe-m-0">Subheadline</h2>
+              <p>
+                Lorem ipsum dolor sit amet, con-sectetuer adipiscing elit.
+                Aenean commodo ligula eget dolor.
+              </p>
+              <button
+                type="button"
+                class="fwe-btn fwe-btn-link fwe-pt-3 fwae-more"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="fwe-col-12 fwe-col-md-6">
+          <div class="fwae-verbox">
+            <div class="fwae-verbox-img"></div>
+            <h2 class="fwe-m-0">Subheadline</h2>
+            <p>
+              Lorem ipsum dolor sit amet, con-sectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor.
+            </p>
+            <button
+              type="button"
+              class="fwe-btn fwe-btn-link fwe-pt-3 fwae-more"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fwae-third fwe-py-5">
+      <h2>H2 Title</h2>
+      <div class="fwe-grid">
+        <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
+          <div class="fwae-img-placeholder"></div>
+          <h3 class="fwe-mb-0">H3 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
+            Learn more
+          </button>
+        </div>
+        <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
+          <div class="fwae-img-placeholder"></div>
+          <h3 class="fwe-mb-0">H3 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
+            Learn more
+          </button>
+        </div>
+        <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
+          <div class="fwae-img-placeholder"></div>
+          <h3 class="fwe-mb-0">H3 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus.
+          </p>
+          <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
+            Learn more
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="fwae-about fwe-container">
+    <div
+      class="
+        fwe-pt-5
+        fwe-d-flex
+        fwe-flex-column
+        fwe-flex-md-row
+        fwe-align-items-flex-start
+      "
+    >
+      <h1 class="fwe-mt-0 fwe-pr-5 fwae-glance">Festo at a glance</h1>
+      <p class="fwe-m-0 fwae-text">
+        Festo is both, a global player and an independent family-owned company
+        with companies in 61 countries. We supply automation technology and
+        technical educational solutions to more than 35 industries.
+      </p>
     </div>
-  </section>
-  <section class="fwae-third fwe-py-5">
-    <h2>H2 Title</h2>
     <div class="fwe-grid">
-      <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
-        <div class="fwae-img-placeholder"></div>
-        <h3 class="fwe-mb-0">H3 Title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus.
-        </p>
-        <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
-          Learn more
-        </button>
+      <div
+        class="
+          fwae-about-col fwae-about-left-col
+          fwe-col-12 fwe-col-sm-6 fwe-col-md-7
+        "
+      >
+        <h4>Festo Worldwide</h4>
+        <img
+          src="./assets/Weltkarte.svg"
+          alt="Map of the world in light blue"
+        />
+        <a href="#">All locations</a>
       </div>
-      <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
-        <div class="fwae-img-placeholder"></div>
-        <h3 class="fwe-mb-0">H3 Title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus.
-        </p>
-        <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
-          Learn more
-        </button>
-      </div>
-      <div class="fwe-col-12 fwe-col-sm-4 fwae-col">
-        <div class="fwae-img-placeholder"></div>
-        <h3 class="fwe-mb-0">H3 Title</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-          vulputate eleifend tellus.
-        </p>
-        <button type="button" class="fwe-btn fwe-btn-link fwe-pt-5 fwae-more">
-          Learn more
-        </button>
+      <div
+        class="
+          fwae-about-col fwae-about-right-col
+          fwe-col-12 fwe-col-sm-6 fwe-col-md-5
+        "
+      >
+        <h4>Facts and Figures</h4>
+        <div class="fwae-fact">
+          <div class="fwae-fact-number">21.000</div>
+          <div class="fwae-fact-text">Employees worldwide</div>
+        </div>
+        <div class="fwae-fact">
+          <div class="fwae-fact-number">3.07</div>
+          <div class="fwae-fact-text">Worldwide turnover in billions of €</div>
+        </div>
+        <div class="fwae-fact">
+          <div class="fwae-fact-number">300.000</div>
+          <div class="fwae-fact-text">Customers in factory and process</div>
+        </div>
+        <div class="fwae-fact">
+          <div class="fwae-fact-number">36.000</div>
+          <div class="fwae-fact-text">Equipped educational institutions</div>
+        </div>
+        <a href="#">More about Festo</a>
       </div>
     </div>
-  </section>
-</main>
+  </div>
+
+  <footer class="fwae-footer fwe-container">
+    <div class="fwae-social-media">
+      <div class="fwae-social-media-link"></div>
+      <div class="fwae-social-media-link"></div>
+      <div class="fwae-social-media-link"></div>
+      <div class="fwae-social-media-link"></div>
+    </div>
+    <div class="fwe-grid">
+      <div class="fwe-col-12 fwe-col-lg-3">
+        <div class="fwae-language fwe-bb-lg-none">
+          <h4>Change country/language</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt.
+          </p>
+          <a href="#">Select language</a>
+        </div>
+      </div>
+      <div class="fwe-col-12 fwe-col-lg-3">
+        <details class="fwe-pt-lg-3 fwe-pt-0 fwe-bb-lg-none" open>
+          <summary>Product Highlights</summary>
+          <ul class="fwe-list-group">
+            <li class="fwe-list-group-item">Core range program</li>
+            <li class="fwe-list-group-item">Fast program</li>
+            <li class="fwe-list-group-item">SEO one</li>
+            <li class="fwe-list-group-item">SEO two</li>
+          </ul>
+        </details>
+        <details class="fwe-bb-lg-none" open>
+          <summary>Press</summary>
+          <ul class="fwe-list-group">
+            <li class="fwe-list-group-item">Press releases</li>
+            <li class="fwe-list-group-item">Media</li>
+            <li class="fwe-list-group-item">Lang</li>
+          </ul>
+        </details>
+      </div>
+      <div class="fwe-col-12 fwe-col-lg-3">
+        <details class="fwe-pt-lg-3 fwe-pt-0 fwe-bb-lg-none" open>
+          <summary>Quick links</summary>
+          <ul class="fwe-list-group">
+            <li class="fwe-list-group-item">Events</li>
+            <li class="fwe-list-group-item">Contact</li>
+            <li class="fwe-list-group-item fwe-ml-3">Newsletter</li>
+            <li class="fwe-list-group-item fwe-ml-3">Adresses worldwide</li>
+            <li class="fwe-list-group-item fwe-ml-3">Support Portal</li>
+            <li class="fwe-list-group-item">FAQ</li>
+            <li class="fwe-list-group-item">Supplier Portal</li>
+          </ul>
+        </details>
+      </div>
+      <div class="fwe-col-12 fwe-col-lg-3">
+        <details class="fwe-pt-lg-3 fwe-pt-0 fwe-bb-lg-none" open>
+          <summary>Industries</summary>
+          <ul class="fwe-list-group">
+            <li class="fwe-list-group-item">
+              Automotive and supplier industry
+            </li>
+            <li class="fwe-list-group-item">Electromobility industry</li>
+            <li class="fwe-list-group-item">Assembly and Test</li>
+            <li class="fwe-list-group-item">
+              Semiconductor industry and electronics
+            </li>
+            <li class="fwe-list-group-item">Solar and flat-panel industry</li>
+            <li class="fwe-list-group-item">Food and beverage industry</li>
+            <li class="fwe-list-group-item">Show all industries</li>
+          </ul>
+        </details>
+      </div>
+    </div>
+
+    <div class="fwae-bottomline">
+      <div class="fwae-sitelinks fwe-order-2">
+        <div class="fwe-pb-2">
+          <a class="fwe-pr-3 fwe-color-control-border-darker" href="#"
+            >Imprint</a
+          >
+          <a class="fwe-pr-3 fwe-color-control-border-darker" href="#"
+            >Copyright</a
+          >
+          <a class="fwe-color-control-border-darker" href="#">Privacy Policy</a>
+        </div>
+        <div class="fwe-pb-4">
+          <a class="fwe-pr-3 fwe-color-control-border-darker" href="#"
+            >Terms and Conditions</a
+          >
+          <a class="fwe-pr-3 fwe-color-control-border-darker" href="#"
+            >Cookies</a
+          >
+          <a class="fwe-color-control-border-darker" href="#">Sitemap</a>
+        </div>
+      </div>
+      <div
+        class="
+          fwe-d-flex
+          fwe-color-control-border-darker
+          fwe-order-1
+          fwe-justify-content-center
+          fwe-pb-4
+        "
+      >
+        © 2017 Festo Inc. All rights reserved
+      </div>
+    </div>
+  </footer>
+</html>
